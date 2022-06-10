@@ -1,0 +1,40 @@
+body {
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  margin: auto;
+  max-width: 1200px;
+  padding-top: 150px;
+  color: white;
+}
+td, th {
+  padding: .5em;
+  margin: 0;
+  border: 2.5px solid #ccc;
+  text-align: center;
+}
+
+th{
+  background-color: rgba(238, 238, 238, 0.787);
+  color: black;
+}
+td{
+  font-weight:bold;
+  /*background-color: #EEE;*/
+}
+
+table{
+  width: 100%;
+  margin-bottom : .7em;
+  table-layout: fixed;
+  text-align: center;
+}
+
+header {
+  text-align: left;
+  margin-top: -7em;
+  padding: 0px;
+  position: absolute
+  
+}

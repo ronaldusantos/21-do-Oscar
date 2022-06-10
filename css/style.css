@@ -1,0 +1,116 @@
+body {
+  /*background-color: lightblue;*/
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  margin: auto;
+  max-width: 1200px;
+  padding-top: 150px;
+  /*background: url('../images/background.jpg') no-repeat top fixed;*/
+}
+.btnStart {
+  position: absolute;
+  top: 60%;
+  left: 620px;
+    
+}
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#j1, #j2 {
+  margin: 0 20px;
+  padding: 0 20px;
+  color: white;
+}
+
+#placar {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: black 2px solid;
+  margin: 0 10px;
+  font-size: xxx-large;
+}
+
+#ranking {
+  height: 50px;
+  margin: 0 10px;
+  font-size: larger;
+  margin: auto;
+  color: lightblue;
+}
+.btn {
+  width: 150px;
+  height: 45px;
+  border-radius: 45px;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0, 1);
+  transition: all 0.3s ease;
+}
+.button {
+  border-radius: 30px;
+  background-color: #4D7ECBA6;
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  
+}
+.btn:hover {
+  background:2c ;
+  transform: translateY(-7px);
+  color: #ffff;
+  box-Shadow: 0px 10px 25px rgba(46, 223, 229, 0.445);
+}
+
+.rodape-prin {
+  position: absolute;
+  left: -20px;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  margin: 0px 10px 25px
+  
+}/*
+.scanner h3:before {
+  content: "Regras";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-right: 4px solid red;
+  box-shadow:0 0 10px 10px #ff0000;
+  overflow: hidden;
+  color: red;
+  animation: scan 4s linear infinite;
+}
+@keyframes scan {
+  0%, 10%, 100% {
+    width: 0;
+  }
+  60%, 80%{
+    width: 100%;
+  }
+}*/
+.regras {
+  text-align: justify-all;
+  color: white;
+}
+.icones {
+  margin: top 10px;
+}

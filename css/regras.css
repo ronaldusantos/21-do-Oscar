@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  /*background-color: lightblue;*/
+  height: 100vh;
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: auto;
+}
+
+header {
+padding: 10px;
+}
+
+.regrasTitulo {
+text-align: center;
+margin-top: 200px;
+color: white;
+font-weight: 900;
+}
+
+#reiniciar{
+  margin-left: 10px;
+}
+
+.btnStart {
+  position: absolute;
+  top: 57%;
+  left: 675px;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#j1, #j2 {
+  margin: 0 20px;
+  padding: 0 20px;
+  color: white;
+}
+
+#placar {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: black 2px solid;
+  margin: 0 10px;
+  font-size: xxx-large;
+}
+
+#ranking {
+  height: 50px;
+  margin: 0 10px;
+  font-size: larger;
+  margin: auto;
+  color: lightblue;
+}
+
+.btn {
+  width: 150px;
+  height: 45px;
+  border-radius: 45px;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0, 1);
+  transition: all 0.3s ease;
+}
+
+/*.button {
+  border-radius: 30px;
+  background-color: #4D7ECBA6;
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+}*/
+
+.btn:hover {
+  background:2c ;
+  transform: translateY(-7px);
+  color: #ffff;
+  box-Shadow: 0px 10px 25px rgba(46, 223, 229, 0.445);
+}
+
+.rodape-prin {
+  position: absolute;
+  left: -20px;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  margin: 0px 10px 25px
+}
+/*
+.scanner h3:before {
+  content: "Regras";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-right: 4px solid red;
+  box-shadow:0 0 10px 10px #ff0000;
+  overflow: hidden;
+  color: red;
+  animation: scan 4s linear infinite;
+}
+@keyframes scan {
+  0%, 10%, 100% {
+    width: 0;
+  }
+  60%, 80%{
+    width: 100%;
+  }
+}*/
+section {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+.regras {
+  text-align: justify;
+  height: 250px;
+  width: 810px;
+  color: white;
+  font-size: 1.5em;
+}
+

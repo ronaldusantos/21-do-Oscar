@@ -1,0 +1,41 @@
+<!-- Aluno: Ronaldo Santos -->
+<!-- SENAI/ Disciplina: Programação WEB -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo 21 do Oscar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <body>
+        <h1>Jogo 21 do Oscar</h1>
+        <div id="app">
+            <div id="j1">
+                <h2>Jogador 1</h2>
+                <button name="b1_a" value="1" onclick="setScore(this)">+1</button>
+                <button name="b1_b" value="2" onclick="setScore(this)">+2</button>
+                <button name="b1_c" value="3" onclick="setScore(this)">+3</button>    
+            </div>
+
+            <div id="placar">
+            </div>
+            
+            <div id="j2">
+                <h2>Jogador 2</h2>
+                <button name="b2_a" value="1" onclick="setScore(this)">+1</button>
+                <button name="b2_b" value="2" onclick="setScore(this)">+2</button>
+                <button name="b2_c" value="3" onclick="setScore(this)">+3</button>
+            </div>
+            
+        </div>
+        <h3>Ranking</h3>
+        <div id="ranking">
+        </div>
+        <script src="js/multiplayer.js"></script>
+    </body>
+    <footer class="rodape-prin">
+        <a href="ranking.html"><img src="images/ranking.png" alt="Icone do Ranking"></a>
+   </footer>
+</html>
